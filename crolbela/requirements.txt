@@ -1,0 +1,15 @@
+# Hand Gesture Mouse Controller -- Requirements
+# Install with: pip install -r requirements.txt
+
+# Computer Vision & Hand Tracking
+opencv-python>=4.10.0
+mediapipe>=0.10.14,<1.0.0
+
+# OS Input Control (fast, zero artificial latency)
+pynput>=1.7.7
+
+# Numerical Computing
+numpy>=1.26.4
+
+# Screen resolution detection fallback
+screeninfo>=0.8.1
